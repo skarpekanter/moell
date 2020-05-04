@@ -88,8 +88,8 @@ text-decoration: none;
     background-color: #646464;
     height: 40px;
     border-radius: 5px;
-    text-align: right;
-    margin-top: 10px;
+    text-align: left;
+    margin-top: 15px;
     overflow: visible;
 }
 .indhold {
@@ -107,6 +107,8 @@ text-decoration: none;
         background-color: #8FBA89;
         border-bottom-right-radius: 5px;
         border-top-right-radius: 5px;
+        position: absolute;
+        right: 50px;
 }    
     .mobilbook {display: none;}
     .mobilebaggrund {display: none;}
