@@ -1,0 +1,86 @@
+/*GENNEMGÅENDE STYLE OVER ALLE ENHEDER*/
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+.indhold a:hover {
+    background-color: #8FBA89;
+}
+
+/*STYLE TIL MOBIL*/
+@media only screen and (max-width: 600px) {
+    .logo {
+        max-width: 100%;
+        height: auto;    
+}
+    .Menuknap {    
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+        
+}
+    .navbar {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+}
+    .indhold {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+        z-index: 1;
+        
+        
+    }
+    .indhold a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+}
+    .indhold a:hover {background-color: #8FBA89}
+    .navbar:hover .indhold {
+        display: block;
+        
+}
+    #book {display:none;}
+}
+/*STYLE TIL WEB*/
+@media only screen and (min-width: 600px) {
+.Menuknap {display: none}
+    .logo{
+    width: 310px;
+    margin-top: -40px    
+}
+.navbar {
+    position: relative;
+    top: 120px;
+    background-color: #646464;
+    height: 40px;
+    border-radius: 5px;
+    text-align: right;
+    margin-top: 10px;
+    overflow: visible;
+}
+.indhold {
+    text-decoration: none;
+    margin:  auto;
+    overflow: hidden;
+}
+.indhold a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 11px 26px;
+    display: inline-block;
+}
+    #book{
+        background-color: #8FBA89;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+}    
+}
