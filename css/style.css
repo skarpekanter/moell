@@ -11,8 +11,10 @@ body {
     width: 70%;
     margin: 0 auto;
     font-family: 'Varela Round', sans-serif;
-    
+
 }
+
+
 .indhold a:hover {
     background-color: #8FBA89;
 }
@@ -51,7 +53,7 @@ text-decoration: none;
 }
 
 .footerlogo{
-    width:100%;
+    width:65%;
 }
 
  
@@ -171,32 +173,18 @@ ul li {
 .forside {
     color:#707070;
     width:60%;
-    
+    margin-top: 50px;
+ 
 }
 
-/* Create three equal columns that floats next to each other */
-.footer_col {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+.om_os{
+    color: #707070;
+    border-bottom: 1px solid;
 }
+.om_os:hover{color:#8FBA89;}
 
-/* Clear floats after the columns */
-.footer_row:after {
-  display: table;
-  clear: both;
-}
 
-.hfooter{
-    font-size: 22px;
-}
 
-.bfooter{
-    width:55%;
-    margin-left: 30px;
-
-}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -356,25 +344,6 @@ div.gallery img {
         list-style-type: none;
         }
  
-/*
-    .footer_col {
-        width: 100%;
-        margin-left: 49px
-    }
- 
-    .hfooter{
-    width: 100%;
-}
-
-    .bfooter{
-    justify-content: left;
-    
-    }
-    
-    .forside {display: none;
-    }    
-   */
-    
 
     
     
@@ -450,16 +419,11 @@ div.gallery img {
   float: left;
   width: 33.3%;
   padding: 8px;
-}
-
-.overskrift{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 40px;
+    
 }
 
 
-.overskrift, .grey{
+.grey{
     color: #646464;
     text-align: center;
 }
@@ -494,6 +458,7 @@ div.gallery img {
     font-style:italic;
     font-family:serif;
     font-size: 19px;
+    font-weight: bold;
     
 }
 
@@ -526,16 +491,23 @@ div.gallery img {
 
 
 .produktbillede{
-    width:100%;
-    margin: 40px 0px 20px 0px;
+    margin-left: 30%;
+    margin-top: 10%;
+    justify-content: center;
+    width: 40%;
+    
 }
 
 
 .produkt_overskrift{
-    font-size: 22px;
+    font-size: 18px;
+    text-align: center;
+
 }
 .produkt_underoverskrift{
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
     
 }
 
@@ -547,8 +519,10 @@ div.gallery img {
   border-radius: 1px;
   cursor: pointer;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 50px;
   font-family: 'Varela Round', sans-serif;
+margin-left: 42.5%;
+    width:15%
 
 
 }
@@ -559,8 +533,10 @@ div.gallery img {
 
 .produktlink{
     color: green;
+    border-bottom: 1px solid;
 }
 
 .produktlink:hover{
     color: #8FBA89;
 }
+
