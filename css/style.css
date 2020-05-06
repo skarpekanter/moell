@@ -21,14 +21,146 @@ text-decoration: none;
     color: white;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    width: 70%;
-    margin: -120px auto;
-    
+
+.footer-distributed{
+	background-color: #FFF;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
 }
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	margin: 0;
+    width:50%;
+}
+
+.footerlogo{
+    width:100%;
+}
+
+ 
+.footer-distributed .footer-links{
+	color:  #8FBA89;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #646464;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #8FBA89;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #646464;
+	vertical-align: middle;
+	margin:0;
+    font-weight: 
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color: #8FBA89;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #646464;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #8FBA89;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #8FBA89;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+
 
 ul li {
   box-sizing: border-box;
@@ -40,11 +172,6 @@ ul li {
     color:#707070;
     width:60%;
     
-}
-
-.fb{
-    width:30%;
-    float: right;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -66,7 +193,8 @@ ul li {
 }
 
 .bfooter{
-    width:90%;
+    width:55%;
+    margin-left: 30px;
 
 }
 
@@ -117,6 +245,8 @@ div.gallery img {
 }
 
 /*STYLE TIL MOBIL*/
+
+
 @media only screen and (max-width: 600px) {
     .logo {
         width: 100%;
@@ -137,10 +267,31 @@ div.gallery img {
     font-size: 16px;
     border: none;
     cursor: pointer;
-  
-        
+         
 }
 
+.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: left;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+    
 .fb{
     display: none;
     }
@@ -204,11 +355,42 @@ div.gallery img {
         li {
         list-style-type: none;
         }
-    
-    footer {display: none;}
-    .forside {display: none;}    
-    
+ 
+/*
+    .footer_col {
+        width: 100%;
+        margin-left: 49px
+    }
+ 
+    .hfooter{
+    width: 100%;
 }
+
+    .bfooter{
+    justify-content: left;
+    
+    }
+    
+    .forside {display: none;
+    }    
+   */
+    
+
+    
+    
+.Se_mere{
+    width:100%;
+}
+    
+.produkt_underoverskrift, .produkt_overskrift {
+   text-align: center;
+
+}
+
+
+}
+
+
 
 
 /*STYLE TIL WEB*/
@@ -342,8 +524,43 @@ div.gallery img {
     text-align: center;
 }
 
-.forside{
-    display: block;
-    margin-top:40px;
+
+.produktbillede{
+    width:100%;
+    margin: 40px 0px 20px 0px;
 }
 
+
+.produkt_overskrift{
+    font-size: 22px;
+}
+.produkt_underoverskrift{
+    font-size: 18px;
+    
+}
+
+.Se_mere{
+  background-color: #000000;
+  color: #FFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: 'Varela Round', sans-serif;
+
+
+}
+
+.Se_mere:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.produktlink{
+    color: green;
+}
+
+.produktlink:hover{
+    color: #8FBA89;
+}
