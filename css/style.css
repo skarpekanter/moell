@@ -14,12 +14,23 @@ body {
 
 }
 
-.rikke {
-    max-width: 20%;
-    position: absolute;
-    right: 17%;
-    top: 23%;
+
+
+
+.Se_mere{
+  background-color: #000000;
+  color: #FFF;
+  padding: 12px 20px;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: 'Varela Round', sans-serif;
+    margin-left:25%;
+    width:50%;
 }
+    
+
 
 .indhold a:hover {
     background-color: #8FBA89;
@@ -176,11 +187,18 @@ ul li {
     color: #707070;
 }
 
-.forside {
-    color:#707070;
-    width:60%;
-    margin-top: 50px;
- 
+
+.forside{
+    width:57%;
+    margin-top: 5%;
+    color: #696969;
+}
+
+.rikke {
+    max-width: 25%;
+    position: absolute;
+    right: 17%;
+    top: 23%;
 }
 
 .om_os{
@@ -190,6 +208,17 @@ ul li {
 .om_os:hover{color:#8FBA89;}
 
 
+.om_os_tekst {
+  display: flex;
+    align-items: center;
+    color:#696969;
+
+}
+
+.collage{
+    width:55%;
+    margin: 40px 0px 0px 40px
+}
 
 
 input[type=text], select, textarea {
@@ -238,6 +267,9 @@ div.gallery img {
     object-fit: cover;
 }
 
+
+
+
 /*STYLE TIL MOBIL*/
 
 
@@ -263,6 +295,11 @@ div.gallery img {
     cursor: pointer;
          
 }
+    
+  .column1 {
+      display: none;
+  }    
+    
 
 .footer-distributed{
 		font: bold 14px sans-serif;
@@ -350,18 +387,21 @@ div.gallery img {
         list-style-type: none;
         }
  
-
-    
-    
-.Se_mere{
-    width:100%;
-}
     
 .produkt_underoverskrift, .produkt_overskrift {
    text-align: center;
 
 }
 
+    
+    .collage{
+        display: none;
+    }
+
+    .om_os_tekst {
+        width:100%;
+
+}
 
 }
 
@@ -522,19 +562,6 @@ div.gallery img {
     
 }
 
-.Se_mere{
-  background-color: #000000;
-  color: #FFF;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 1px;
-  cursor: pointer;
-  font-size: 20px;
-  margin-top: 50px;
-  font-family: 'Varela Round', sans-serif;
-margin-left: 42.5%;
-    width:15%
-
 
 }
 
@@ -550,34 +577,7 @@ margin-left: 42.5%;
 .produktlink:hover{
     color: #8FBA89;
 }
-.butikfront {
-    max-width: 15%;
-    max-height: 25%;
-    position: absolute;
-    right: 285px;
-    top: 250px;
-}
-.butikart {
-    max-width: 15%;
-    max-height: 25%;
-    position: absolute;
-    right: 555px;
-    top: 250px;;
-}
-.butikart1 {
-    max-width: 15%;
-    max-height: 25%;
-    position: absolute;
-    right: 285Px;
-    top: 570px;;
-}
-.butikfront1 {
-    max-width: 15%;
-    max-height: 25%;
-    position: absolute;
-    right: 555px;
-    top: 570px;
-}
+
 
 
 
