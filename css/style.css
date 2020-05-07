@@ -388,6 +388,23 @@ div.gallery img {
         }
  
     
+    
+.Se_mere{
+  background-color: #000000;
+  color: #FFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: 'Varela Round', sans-serif;
+    margin-left: 42.5%;
+    width: 10;
+
+}
+}
+    
 .produkt_underoverskrift, .produkt_overskrift {
    text-align: center;
 
@@ -398,10 +415,6 @@ div.gallery img {
         display: none;
     }
 
-    .om_os_tekst {
-        width:100%;
-
-}
 
 }
 
@@ -451,6 +464,22 @@ div.gallery img {
     .mobilbook {display: none;}
     .mobilebaggrund {display: none;}
     .mobilforside {display: none;}
+    
+    .Se_mere{
+  background-color: #000000;
+  color: #FFF;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: 'Varela Round', sans-serif;
+margin-left: 42.5%;
+    width:15%
+
+
+}
 }
 
 
@@ -534,7 +563,7 @@ div.gallery img {
     .butikart1 {display: none;}
     .rikke {display: none;}
 }
-}
+
 
 .mobilforside {
     text-align: center;
@@ -562,8 +591,6 @@ div.gallery img {
     
 }
 
-
-}
 
 .Se_mere:hover{
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)

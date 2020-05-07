@@ -1,0 +1,7 @@
+User-agent:*
+Dissallow:/css/
+Disaallow:/images/
+
+
+User-agent: DuckDuckBot
+Disllow:/
