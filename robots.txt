@@ -1,7 +1,15 @@
 User-agent:*
-Dissallow:/css/
-Disaallow:/images/
-
+Disallow: /css/
+Disallow: /images/
+#Her har vi blokeret alle crawlere adgang til vores css og images mapper
 
 User-agent: DuckDuckBot
-Disllow:/
+Disallow: /
+#Her har vi blokeret alt adgang til crawlere fra Duck Duck Go
+
+User-agent: BingBot
+Crawl-Delay: 120ms
+Disallow: /Om%20os.html
+#Her er der lavet "langsommere" adgang (delay) til crawlere fra Bing
+#Samt blokeret adgang til Om Os siden
+
