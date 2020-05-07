@@ -211,6 +211,7 @@ ul li {
   display: flex;
     align-items: center;
     color:#696969;
+    
 
 }
 
@@ -396,21 +397,29 @@ div.gallery img {
   font-size: 20px;
   margin-top: 50px;
   font-family: 'Varela Round', sans-serif;
-    margin-left: 42.5%;
-    width: 40%;
+    width:40%;
 
 }
+    
+.collage{
+   display:none;
 }
     
+    
+.forside{
+   display:none;
+}
+
 .produkt_underoverskrift, .produkt_overskrift {
-   text-align: center;
-
+   text-align: center;   
+    
+    
+}
+      
+    
 }
 
-    
-    .collage{
-        display: none;
-    }
+
 /*STYLE TIL WEB*/
 @media only screen and (min-width: 600px) {
 .Menuknap {display: none}
