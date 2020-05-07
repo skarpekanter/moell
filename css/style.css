@@ -121,8 +121,7 @@ text-decoration: none;
 	display: inline-block;
 	color: #646464;
 	vertical-align: middle;
-	margin:0;
-    font-weight: 
+	margin: 0;
 }
  
 .footer-distributed .footer-center p span{
@@ -320,7 +319,6 @@ div.gallery img {
 	}
 	.main {
 		line-height: normal;
-		font-size: auto;
 	}
     
 .fb{
@@ -341,7 +339,6 @@ div.gallery img {
         position: absolute;
         background-color: #FFF;
         min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
         z-index: 1;   
         margin-left: -20px;
     }
@@ -400,7 +397,7 @@ div.gallery img {
   margin-top: 50px;
   font-family: 'Varela Round', sans-serif;
     margin-left: 42.5%;
-    width: 10;
+    width: 40%;
 
 }
 }
@@ -414,13 +411,6 @@ div.gallery img {
     .collage{
         display: none;
     }
-
-
-}
-
-
-
-
 /*STYLE TIL WEB*/
 @media only screen and (min-width: 600px) {
 .Menuknap {display: none}
