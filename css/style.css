@@ -483,6 +483,11 @@ div.gallery img {
   .columns {
     width: 100%;
   }
+    
+    .butikfront {display: none;}
+    .butikart1 {display: none;}
+    .forside {display: none;}
+}
 }
 
 .mobilforside {
@@ -538,5 +543,33 @@ margin-left: 42.5%;
 
 .produktlink:hover{
     color: #8FBA89;
+}
+.butikfront {
+    max-width: 15%;
+    max-height: 25%;
+    position: absolute;
+    right: 285px;
+    top: 250px;
+}
+.butikart {
+    max-width: 15%;
+    max-height: 25%;
+    position: absolute;
+    right: 555px;
+    top: 250px;;
+}
+.butikart1 {
+    max-width: 15%;
+    max-height: 25%;
+    position: absolute;
+    right: 285Px;
+    top: 570px;;
+}
+.butikfront1 {
+    max-width: 15%;
+    max-height: 25%;
+    position: absolute;
+    right: 555px;
+    top: 570px;
 }
 
