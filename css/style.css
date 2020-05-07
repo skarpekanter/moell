@@ -14,6 +14,12 @@ body {
 
 }
 
+.rikke {
+    max-width: 20%;
+    position: absolute;
+    right: 17%;
+    top: 23%;
+}
 
 .indhold a:hover {
     background-color: #8FBA89;
@@ -572,4 +578,6 @@ margin-left: 42.5%;
     right: 555px;
     top: 570px;
 }
+
+
 
